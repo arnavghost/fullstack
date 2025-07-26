@@ -1,0 +1,42 @@
+# --- Global ---
+node_modules/
+.env
+.env.local
+.env.*.local
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Backend (Node/Express) ---
+# if server is in root or /server
+/server/node_modules/
+/server/dist/
+/server/build/
+/server/.env
+/server/.DS_Store
+
+# PM2 logs (optional)
+/server/pids
+/server/logs
+
+# --- Frontend (React - Create React App) ---
+/client/node_modules/
+/client/build/
+/client/.env
+/client/.DS_Store
+/client/.cache
+/client/.next
+/client/coverage
+/client/.eslintcache
+
+# VSCode and Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
