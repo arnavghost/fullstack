@@ -38,3 +38,16 @@ function App() {
 }
 
 export default App
+
+// this increments four times 
+// const incrementFourTimes = () => {
+//   setCount(prev => prev + 1)
+//   setCount(prev => prev + 1)
+//   setCount(prev => prev + 1)
+//   setCount(prev => prev + 1)
+// }
+//while : this counts once only cause of react fibre 
+// setCounter(counter + 1)
+// setCounter(counter + 1)
+// setCounter(counter + 1)
+// setCounter(counter + 1)
