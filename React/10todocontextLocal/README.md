@@ -1,12 +1,103 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 Todo App
 
-Currently, two official plugins are available:
+A minimal, responsive Todo List app built with:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* ⚛️ React + Vite
+* 🎯 Context API for state management
+* 💨 Tailwind CSS for styling
+* 💾 LocalStorage for data persistence
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![App Screenshot](https://via.placeholder.com/800x400?text=Todo+App+Preview) <!-- Replace with your app screenshot or remove if not needed -->
+
+---
+
+## 🚀 Features
+
+✅ Add, edit, and delete todos
+✅ Mark todos as completed
+✅ Inline editing with auto save
+✅ Persistent data using localStorage
+✅ Clean UI with responsive design
+
+---
+
+## 🧠 Tech Stack
+
+* React (via Vite)
+* Tailwind CSS
+* Context API
+* JavaScript (ES6+)
+* LocalStorage API
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── components/
+│   ├── TodoForm.jsx
+│   ├── TodoItem.jsx
+│   └── index.js
+├── contexts/
+│   ├── TodoContext.js
+│   └── index.js
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🛠️ Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/todo-app.git
+```
+
+2. Navigate into the project
+
+```bash
+cd todo-app
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run the app
+
+```bash
+npm run dev
+```
+
+---
+
+## 📌 How It Works
+
+* All todos are stored in localStorage, ensuring data is saved even after page reload.
+* Context API handles global state for todos.
+* Users can:
+
+  * Add new todos using the input form.
+  * Toggle completed status.
+  * Edit todos inline (disabled when completed).
+  * Delete any todo.
+
+---
+
+## 🎨 UI Example
+
+| Action    | Screenshot               |
+| --------- | ------------------------ |
+| Add Todo  | ✅ Clean input form       |
+| Edit Todo | ✏️ Inline editable field |
+| Completed | ✅ Green highlight        |
+
+---
