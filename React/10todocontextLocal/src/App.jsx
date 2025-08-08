@@ -29,6 +29,7 @@ function App() {
       prev.filter((todo) => todo.id !== id)
     )
   }
+  
 
   // Toggle the completion status of a todo
   const toggleComplete = (id) => {
