@@ -2,7 +2,7 @@ import React from 'react'
 
 // Card component receives "username" as a prop
 // props are like function parameters passed from parent (App.jsx)
-function Card({ username }) { // destructured props : props.username
+function Card({ username}) { // destructured props : props.username
   return (
     // Outer card container with Tailwind classes for styling
     <div className="w-60 rounded-xl shadow-lg overflow-hidden bg-white">
@@ -24,3 +24,4 @@ function Card({ username }) { // destructured props : props.username
 }
 
 export default Card   // Exporting Card so it can be imported in App.jsx
+ 
